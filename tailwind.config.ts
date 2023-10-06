@@ -8,6 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // colors: {
+      //   teal: {
+      //     DEFAULT: '#008F94',
+      //   },
+      //   coral: {
+      //     DEFAULT: '#FF6B60',
+      //   },
+      //   gold: {
+      //     DEFAULT: '#F5CD00',
+      //   },
+      //   gray: {
+      //     DEFAULT: '#8A8A8A',
+      //   },
+      // },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -15,6 +29,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // require('@tailwindcss/typography'),  // Ensure this plugin is installed via npm
+
+  ],
 }
 export default config
